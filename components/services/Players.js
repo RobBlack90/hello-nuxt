@@ -1,0 +1,29 @@
+import playerData from '@/assets/data/playerData'
+
+let get = () => new Promise(resolve => {
+  setTimeout(() => {
+    resolve(playerData)
+  }, 1500)
+})
+
+let show = (id) => new Promise(resolve => {
+  setTimeout(() => {
+    resolve(playerData.find(function(player) {
+      return player.id  === id;
+    }))
+  }, 1500)
+})
+
+let findByTeam = (teamId) => new Promise(resolve => {
+  setTimeout(() => {
+    resolve(playerData.filter(function(player) {
+      return player.teamId  === teamId;
+    }))
+  }, 1500)
+})
+
+export default {
+  get,
+  show,
+  findByTeam
+}

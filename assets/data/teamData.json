@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "Toon Squad",
+    "image": "/ToonSquad.png",
+    "slug": "toon-squad"
+  },
+  {
+    "id": "2",
+    "name": "Monstars",
+    "image": "/Monstars.png",
+    "slug": "monstars"
+  }
+]

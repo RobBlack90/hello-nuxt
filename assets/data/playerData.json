@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "firstName": "Bill",
+    "lastName": "Murray",
+    "teamId": "1",
+    "height": "5'10\"",
+    "weight": "170lbs",
+    "position": "SF",
+    "number": "22",
+    "image": "/BillMurray.png"
+  },
+  {
+    "id": "2",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "teamId": "1",
+    "height": "6'3\"",
+    "weight": "210lbs",
+    "position": "SG",
+    "number": "23",
+    "image": "/MichaelJordan.png"
+  },
+  {
+    "id": "3",
+    "firstName": "Bugs",
+    "lastName": "Bunny",
+    "teamId": "1",
+    "height": "3'11\"",
+    "weight": "60lbs",
+    "position": "PG",
+    "number": "1",
+    "image": "/BugsBunny.jpg"
+  },
+  {
+    "id": "4",
+    "firstName": "Daffy",
+    "lastName": "Duck",
+    "teamId": "1",
+    "height": "3'10\"",
+    "weight": "58.6lbs",
+    "position": "C",
+    "number": "2",
+    "image": "/DaffyDuck.png"
+  },
+  {
+    "id": "5",
+    "firstName": "Lola",
+    "lastName": "Bunny",
+    "teamId": "1",
+    "height": "3'6\"",
+    "weight": "N/A",
+    "position": "PF",
+    "number": "10",
+    "image": "/LolaBunny.jpg"
+  },
+  {
+    "id": "6",
+    "firstName": "Pound",
+    "lastName": null,
+    "teamId": "2",
+    "height": "12'10\"",
+    "weight": "629lbs",
+    "position": "PG",
+    "number": "0",
+    "image": "/Pound.png"
+  },
+  {
+    "id": "7",
+    "firstName": "Bang",
+    "lastName": null,
+    "teamId": "2",
+    "height": "11'4\"",
+    "weight": "170lbs",
+    "position": "SG",
+    "number": "0",
+    "image": "/Bang.png"
+  },
+  {
+    "id": "8",
+    "firstName": "Blanko",
+    "lastName": null,
+    "teamId": "2",
+    "height": "15'11\"",
+    "weight": "170lbs",
+    "position": "PF",
+    "number": "0",
+    "image": "/Blanko.png"
+  },
+  {
+    "id": "9",
+    "firstName": "Bupkus",
+    "lastName": null,
+    "teamId": "2",
+    "height": "11'9\"",
+    "weight": "170lbs",
+    "position": "C",
+    "number": "0",
+    "image": "/Bupkus.png"
+  },
+  {
+    "id": "10",
+    "firstName": "Nawt",
+    "lastName": null,
+    "teamId": "2",
+    "height": "9'6\"",
+    "weight": "170lbs",
+    "position": "SF",
+    "number": "0",
+    "image": "/Nawt.png"
+  }
+]
