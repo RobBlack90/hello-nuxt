@@ -2,13 +2,13 @@
   <section>
     <b-container fluid>
       <b-row class="header-row" align-v="start" align-h="center">
-        <b-col align-self="center" class="m-3 animated zoomIn">
+        <b-col align-self="center" class="mx-3 animated zoomIn">
           <b-img center class="team-logo" :src="team.image" fluid :alt="team.name"></b-img>
         </b-col>
       </b-row>
 
       <b-row align-h="center">
-        <b-col class="m-3 animated fadeIn delay-1s" sm="3" v-for="player in players" :key="player.id">
+        <b-col class="m-3 animated fadeIn delay-1s faster" sm="3" v-for="player in players" :key="player.id">
           <nuxt-link :to="`/teams/${team.id}/players/${player.id}`">
             <player-card class="player-card" :player="player"></player-card>
           </nuxt-link>
@@ -45,7 +45,7 @@ export default {
 <style>
 
 .team-logo {
-  height: 30rem;
+  height: 33rem;
 }
 
 .player-card {

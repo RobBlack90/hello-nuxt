@@ -1,16 +1,5 @@
 [
   {
-    "id": "1",
-    "firstName": "Bill",
-    "lastName": "Murray",
-    "teamId": "1",
-    "height": "5'10\"",
-    "weight": "170lbs",
-    "position": "SF",
-    "number": "22",
-    "image": "/BillMurray.png"
-  },
-  {
     "id": "2",
     "firstName": "Michael",
     "lastName": "Jordan",
@@ -42,6 +31,17 @@
     "position": "C",
     "number": "2",
     "image": "/DaffyDuck.png"
+  },
+  {
+    "id": "1",
+    "firstName": "Bill",
+    "lastName": "Murray",
+    "teamId": "1",
+    "height": "5'10\"",
+    "weight": "170lbs",
+    "position": "SF",
+    "number": "22",
+    "image": "/BillMurray.png"
   },
   {
     "id": "5",

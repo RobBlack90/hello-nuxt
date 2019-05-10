@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row class="justify-content-md-center" align-v="center">
-      <b-col cols="8" class="mt-5 animated fadeIn">
+      <b-col cols="8" class="mt-5 animated fadeIn faster">
         <b-card bg-variant="dark" text-variant="white">
           <b-media no-body>
             <b-media-aside vertical-align="center">
