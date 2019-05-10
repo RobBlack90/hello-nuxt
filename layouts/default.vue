@@ -1,7 +1,7 @@
 <template>
   <div class="app">
       <div class="stars"></div>
-      <div class="twinkling"></div>
+      <!-- <div class="twinkling"></div> -->
     <nuxt class="content"/>
   </div>
 </template>

@@ -7,15 +7,15 @@
         </b-col>
       </b-row>
       <b-row class="text-center" align-v="center">
-        <b-col>
+        <b-col class="animated fast fadeInLeft" cols="5">
           <nuxt-link :to="`/teams/${teams[0].id}`">
             <b-img center class="team-image mx-5" :src="teams[0].image" fluid :alt="teams[0].name"></b-img>
           </nuxt-link>
         </b-col>
         <b-col>
-          <b-img center class="vs-image" src="/vs.svg" fluid alt="vs"></b-img>
+          <b-img center class="vs-image animated heartBeat delay-1s" src="/vs.svg" fluid alt="vs"></b-img>
         </b-col>
-        <b-col>
+        <b-col class="animated fast fadeInRight" cols="5">
           <nuxt-link :to="`/teams/${teams[1].id}`">
             <b-img center class="team-image mx-5" :src="teams[1].image" fluid :alt="teams[1].name"></b-img>
           </nuxt-link>
@@ -47,7 +47,6 @@ export default {
 .team-image {
   height: 23rem;
   transition: transform .5s;
-
 }
 
 .vs-image {
@@ -61,7 +60,7 @@ export default {
 }
 
 .team-image:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
   cursor: pointer;
 }
 </style>
