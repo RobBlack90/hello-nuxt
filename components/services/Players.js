@@ -3,7 +3,7 @@ import playerData from '@/assets/data/playerData'
 let get = () => new Promise(resolve => {
   setTimeout(() => {
     resolve(playerData)
-  }, 1500)
+  }, 500)
 })
 
 let show = (id) => new Promise(resolve => {
@@ -11,7 +11,7 @@ let show = (id) => new Promise(resolve => {
     resolve(playerData.find(function(player) {
       return player.id  === id;
     }))
-  }, 1500)
+  }, 3500)
 })
 
 let findByTeam = (teamId) => new Promise(resolve => {
@@ -19,7 +19,7 @@ let findByTeam = (teamId) => new Promise(resolve => {
     resolve(playerData.filter(function(player) {
       return player.teamId  === teamId;
     }))
-  }, 1500)
+  }, 500)
 })
 
 export default {
