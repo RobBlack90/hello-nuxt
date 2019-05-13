@@ -4,9 +4,8 @@
       <b-card-text>
         <no-ssr>
           <h1>{{ getFullName(player.firstName, player.lastName, true) }}</h1>
-            <h2><b-badge variant="secondary">{{player.number}}</b-badge></h2>
-
         </no-ssr>
+        <h2><b-badge variant="secondary">{{player.number}}</b-badge></h2>
       </b-card-text>
     </b-card>
   </div>
