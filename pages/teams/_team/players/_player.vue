@@ -11,7 +11,9 @@
             <b-media-body class="ml-3">
               <h1 class="mt-0"> 
                 <span><b-img slot="aside" :src="team.image" width="64" height="64" alt="placeholder"></b-img></span>
-                {{ player.firstName + ' ' + player.lastName + ' #' + player.number}}
+                {{ player.firstName }}
+                <span v-if="player.lastName">{{ ' ' + player.lastName }}</span>
+                {{ ' #' + player.number}}
               </h1>
               <b-media align-v="center">
                 <p class="stat"><span class="label">Height: </span>{{ player.height }}</p>
