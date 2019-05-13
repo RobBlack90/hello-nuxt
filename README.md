@@ -1,6 +1,14 @@
+
+
+
+
 # hello-nuxt
 
-> Just seein&#39; how it do
+A super quick app built using vue-bootstrap (🤷‍♂️) for a quick ~5min nuxt.js presentation I gave.
+
+Talk was meant to cover the basics of nuxt- highlighting the general concepts of SSR, routing (`/pages` directory), global structure (`/layouts` directory), `<nuxt-link>`, `<no-ssr>`, and `asyncData()`.
+
+All images/logos were acquired via google images.  
 
 ## Build Setup
 
